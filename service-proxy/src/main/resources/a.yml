@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id : r1
+          uri : lb://COMPTE-SERVICE
+          predicates :
+            - Path= /comptes/**
+
+  
