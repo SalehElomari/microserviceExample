@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.se.serviceregister.ServiceRegisterApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.664 s <<< FAILURE! - in org.se.serviceregister.ServiceRegisterApplicationTests
+contextLoads  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.cloud.commons.ConfigDataMissingEnvironmentPostProcessor$ImportException: No spring.config.import set
+
